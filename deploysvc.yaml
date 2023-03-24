@@ -13,7 +13,7 @@ spec:
         app: spring-boot-k8s
     spec:
       containers:
-        - name: spring-boot-k8s
+        - name: spring-boot-k8s-cont
           image: siva2428/devopsdemos # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
